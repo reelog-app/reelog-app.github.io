@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reelog — your movie & TV journal</title>
+<meta name="description" content="Reelog is a privacy-first movie and TV tracker for Android. No account, no server, no tracking: your watch history stays on your phone.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FFF8F0;--surface:#F3EBE0;--border:#DCCFBF;--text:#1F1A14;--text2:#5A5046;--primary:#8B5000;--onPrimary:#FFFFFF}
+@media (prefers-color-scheme:dark){:root{--bg:#211D18;--surface:#2D2822;--border:#4A4239;--text:#EDE3D8;--text2:#C5B8A9;--primary:#FFB95C;--onPrimary:#482900}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Archivo',system-ui,sans-serif;line-height:1.5}
+main{max-width:720px;margin:0 auto;padding:64px 20px 48px}
+.brand{display:flex;align-items:center;gap:16px}
+.word{font-size:48px;font-weight:800;font-stretch:115%;letter-spacing:-.02em;line-height:1}
+.tag{font-size:18px;color:var(--text2);margin:20px 0 0}
+.badge{display:inline-block;margin-top:24px;padding:8px 16px;border-radius:999px;background:var(--surface);border:1px solid var(--border);font-size:14px;font-weight:600}
+h2{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:var(--text2);margin:48px 0 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+.card{padding:18px;border-radius:16px;background:var(--surface);border:1px solid var(--border)}
+.card strong{display:block;font-size:16px;margin-bottom:4px}
+.card span{font-size:14px;color:var(--text2)}
+footer{max-width:720px;margin:0 auto;padding:24px 20px 48px;font-size:14px;color:var(--text2);border-top:1px solid var(--border)}
+a{color:var(--primary)}
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <svg width="72" height="72" viewBox="0 0 100 100" role="img" aria-label="Reelog logo" style="color:var(--primary)">
+      <g transform="translate(-4 9)" fill="currentColor">
+        <path d="M76 50L95 40L95 76L76 64Z" opacity="0.25"/>
+        <rect x="81" y="51" width="10" height="4.5" rx="2.25"/><rect x="81" y="59" width="7" height="4.5" rx="2.25"/>
+        <circle cx="30" cy="26" r="15"/><circle cx="60" cy="26" r="15"/>
+        <rect x="14" y="44" width="62" height="26" rx="9"/>
+      </g>
+      <g transform="translate(-4 9)" fill="var(--bg)">
+        <circle cx="30" cy="19" r="3.4"/><circle cx="36.06" cy="29.5" r="3.4"/><circle cx="23.94" cy="29.5" r="3.4"/>
+        <circle cx="60" cy="19" r="3.4"/><circle cx="66.06" cy="29.5" r="3.4"/><circle cx="53.94" cy="29.5" r="3.4"/>
+      </g>
+    </svg>
+    <span class="word">Reelog</span>
+  </div>
+  <p class="tag">Your movie &amp; TV journal. Follow series episode by episode, log the films you watch,
+  and keep your history — on your phone, not on someone else's server.</p>
+  <span class="badge">Coming soon to Android</span>
+
+  <h2>Why Reelog</h2>
+  <div class="grid">
+    <div class="card"><strong>No account</strong><span>Open the app and start tracking. Nothing to sign up for.</span></div>
+    <div class="card"><strong>Your data stays yours</strong><span>Everything is stored on your device. No server, no analytics, no ads.</span></div>
+    <div class="card"><strong>Export anytime</strong><span>Back up your history to a file or a folder you choose, and bring it back whenever you want.</span></div>
+    <div class="card"><strong>Works offline</strong><span>Your library and history are always available, even without a connection.</span></div>
+  </div>
+</main>
+<footer>
+  Contact: <a href="mailto:reelog.app@proton.me">reelog.app@proton.me</a>
+</footer>
+</body>
+</html>
